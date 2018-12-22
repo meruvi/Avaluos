@@ -1,0 +1,533 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color:#06F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #a9a9a9;
+}
+a {
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFCC00;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 1.2em;
+    width: 100%;
+    border-bottom: 1px solid #1c1e1f;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+hr{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#2759B6;
+    border: 1px solid #1c1e1f;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header {
+    height: 60px;
+    color: #ffffff;
+}
+
+#logo {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+#logo span {
+    color: #ffa906;
+}
+
+#logo h1 {
+    font-size: 24px;
+}
+
+#navigation ul {
+    border-top: 1px solid #1c1e1f;
+    border-bottom: 1px solid #1c1e1f;
+    height: 35px;
+    text-align: center;
+}
+
+#navigation ul li {
+    display: inline;
+    line-height: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#content {
+    background-color:#3F5ED8;
+}
+
+#left {
+    width: 88%;
+    float: left;
+}
+
+#right {
+    width: 12%;
+    float: right;
+}
+
+.box {
+    background-color:#2759B6;
+    padding: 10px;
+    margin: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    border-top: 1px solid #1c1e1f;	
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+#copyright {
+    width: 400px;
+    float: left;
+}
+
+#createdby {
+    float: right;
+}
+.tblTabla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #DDDDDD;
+
+}
+.tblTablaBusquedas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #DDDDDD;
+
+}
+.tblTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+.tblTitulo_normal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #e5f305;
+    font-weight: bold;
+}
+.tblTituloBusquedas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+.tblTitulo_normal_num{
+    font-family: Arial;
+    font-size: 14px;
+    color: #e5f305;
+    font-weight: bold;
+}
+.tblTitulo_trasporte{
+    font-family: Arial;
+    font-size: 14px;
+
+    color: #ffffff;
+    font-weight: bold;
+}
+.naranjaa{
+    font-family: Arial;
+
+    color: #e71f05;
+    font-weight: bold;
+}
+.tblTitulo_express{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #91f9e7;
+    font-weight: bold;
+}
+.tblTitulo_express_num{
+    font-family: Arial;
+    font-size: 14px;
+    color: #91f9e7;
+    font-weight: bold;
+}
+.tblTitulo_rojo{
+    font-family: Arial;
+
+    color: #fa6c8a;
+    font-weight: bold;
+}
+A.menucolor:active 
+{ 
+    background:black; 
+    color: red; 
+}  
+
+.tblTitulov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #a2db00;
+
+
+}
+
+.tblPar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #222222;
+    color: #DDDDDD;
+}
+.tblImpar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #333333;
+    color: #DDDDDD;
+}
+.tblLink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #77DD00;
+    font-weight: bold;
+}
+.tblLink:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CCFF00;
+}
+.tblParBusqueda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #DDDDDD;
+}
+.tblImparBusqueda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #DDDDDD;
+}
+.tblLink2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFBBBB;
+    font-weight: bold;
+}
+.tblLink2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF3300;
+}
+.fecha_red{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ed311e;
+}
+.fecha_orange{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ee7f00;
+}
+.fecha_green{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1be22d;
+}
+.txtTexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #555555;
+    font-weight: bold;
+}
+.btnGuardar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000066;
+    background-color: #EEEEEE;
+    border: 2px outset #33CCFF;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.btnGuardar:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000FF;
+    background-color: #FFFFFF;
+    border: 2px groove #33CCFF;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.btnReset{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #660000;
+    background-color: #EEEEEE;
+    border: 2px outset #FF3366;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.btnReset:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF0000;
+    background-color: #FFFFFF;
+    border: 2px groove #FF3366;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.btnModificar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #006600;
+    background-color: #EEEEEE;
+    border: 2px outset #66EE33;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.btnModificar:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #00FF00;
+    background-color: #FFFFFF;
+    border: 2px groove #66EE33;
+    width: 72px;
+    height: 20px;
+    font-weight: bold;
+}
+.mnuLink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+.mnuLink:hover{
+    color: #FFFFFF;
+}
+.lnkPagina{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFF00;	
+}
+.lnkRojo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  12px;
+    color: #FF0033;
+    font-weight: bold;
+}
+.lnkVerde{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  12px;
+    color: #07f312;
+    font-weight: bold;
+}
+.lnkRojo:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  12px;
+    color: #FFBBBB;
+}
+.tblImportante{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFF00;
+}
+.tblImportante2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #00FFFF;
+}
+.txtTituloSeccion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+input:disabled
+{
+    background-color   : #1A2740;
+}
+
+/*CSS para profesional*/
+.proTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    background-color: #2adbeb;
+    color: #000000;
+    border: 2px;
+
+}
+.proPar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #DDDDDD;
+}
+.proImpar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #DDDDDD;
+}
+.proEspacio{
+    height: 20px;
+
+}
+.proTxtImpar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #2adbeb;
+    width: 40px;
+    height: 20px;
+}
+.proTxtPar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #2adbeb;
+    width: 40px;
+    height: 20px;
+}
+.proTxtImparNombres{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #2adbeb;
+    width: 145px;
+    height: 20px;
+}
+.proTxtParNombres{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #2adbeb;
+    width: 145px;
+    height: 20px;
+}
+.proTxtImparNombresLargo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #2adbeb;
+    width: 260px;
+    height: 20px;
+}
+.proTxtParNombresLargo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #2adbeb;
+    width: 260px;
+    height: 20px;
+}
+.proTxtImparNombresCreacion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #333333;
+    color: #2adbeb;
+    width: 173px;
+    height: 20px;
+}
+.proTxtParNombresCreacion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #222222;
+    color: #2adbeb;
+    width: 173px;
+    height: 20px;
+}
+.fondoRojo{
+    background-color: #f6bbca;
+}
+html{
+    margin:2;
+    scrollbar-face-color: #333333;
+    scrollbar-shadow-color: #111111;
+    scrollbar-highlight-color: #555555;
+    scrollbar-3dlight-color: #777777;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-track-color: #000000;
+    scrollbar-arrow-color: #FFCC00;
+}
+.menuProformaImg{
+    float:left;
+    padding-left:9px;
+    padding-top:5px;
+
+}
+.menuProformaText{
+
+    text-align: right;
+    font-size:11px;
+    text-align:  right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right:9px;
+    color: #A0A0A4;
+}
+
+.profTxtImpar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #333333;
+    color: #2adbeb;
+    width: 280px;
+    height: 20px;
+}
+.profTxtPar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #222222;
+    color: #2adbeb;
+    width: 280px;
+    height: 20px;
+}
+
+.textoVerde {
+    color:chartreuse;
+}
+.invisible{
+    display:none;
+}
+.visible{
+    display:block;
+}
